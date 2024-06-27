@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "https://dazzling-lily-94aa2a.netlify.app/")
+@CrossOrigin(origins = "https://moviesclient.netlify.app/")
 @RequestMapping("/api/v1/reviews")
 public class ReviewController {
     @Autowired

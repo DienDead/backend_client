@@ -6,4 +6,4 @@ FROM openjdk:21-jdk-slim
 COPY --from=build /target/MovieApp-0.0.1-SNAPSHOT.jar MovieApp.jar
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar","MovieApp.jar "]
+ENTRYPOINT ["java", "-jar","MovieApp.jar"]

@@ -27,7 +27,7 @@ public class MovieAppApplication {
 
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/api/v1/movies-javaconfig").allowedOrigins("https://dazzling-lily-94aa2a.netlify.app/");
+				registry.addMapping("/api/v1/movies-javaconfig").allowedOrigins("https://moviesclient.netlify.app/");
 			}
 		};
 	}
